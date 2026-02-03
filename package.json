@@ -1,0 +1,20 @@
+{
+  "name": "cypress-practice-sd",
+  "version": "1.0.0",
+  "main": "index.js",
+  {
+  "name": "cypress-practice-sd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "report": "cypress run --reporter cypress-mochawesome-reporter"
+  },
+  "devDependencies": {
+    "chai": "^6.2.0",
+    "cypress": "^15.7.0",
+    "cypress-mochawesome-reporter": "^3.8.0"
+  }
+}
+}
