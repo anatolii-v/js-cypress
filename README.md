@@ -1,4 +1,4 @@
-### 2. What Was Tested and Why
+### What Was Tested and Why
 
 The suite validates business-critical user journeys where failures would directly impact revenue or user trust:
 
@@ -7,7 +7,7 @@ The suite validates business-critical user journeys where failures would directl
 * **Data Integrity:** Mathematical validation of sub-totals, taxes, and final order confirmations.
 * **API Layer:** Direct REST API testing for products, users, and JWT-based authentication to ensure backend stability and correct data structure.
 
-### 3. What Was Automated and Why
+### What Was Automated and Why
 
 To maintain a high standard of quality while enabling fast feedback cycles, the following were automated:
 
@@ -16,7 +16,7 @@ To maintain a high standard of quality while enabling fast feedback cycles, the 
 * **Cross-Browser Testing:** Ensuring compatibility across Chrome, Firefox, and Electron.
 * **CI/CD Pipeline:** Integrated via GitHub Actions to run tests automatically on every pull request, ensuring that no breaking changes are merged.
 
-### 4. Tools Used and Why
+### Tools Used and Why
 
 * **Cypress:** Chosen for its fast execution, built-in waiting mechanisms, and excellent developer experience.
 * **JavaScript:** Provides flexibility and wide community support for writing clean automation scripts.
@@ -24,7 +24,7 @@ To maintain a high standard of quality while enabling fast feedback cycles, the 
 * **Fixtures (JSON):** Used for Data-Driven Testing to manage credentials and test data without hard-coding.
 * **GitHub Actions & Mochawesome:** Used for continuous integration and generating visual HTML reports with screenshots/videos on failure.
 
-### 5. How to Run Tests
+### How to Run Tests
 
 **Prerequisites:** Node.js (v18+) and Git.
 
