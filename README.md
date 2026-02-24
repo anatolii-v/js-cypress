@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### What Was Tested and Why
 
 The suite validates business-critical user journeys where failures would directly impact revenue or user trust:
@@ -102,7 +101,3 @@ npx cypress run
 
 # To run a specific module (e.g., Checkout):
 npx cypress run --spec "cypress/e2e/checkout/**/*.cy.js"
-
-```
-
->>>>>>> 20e21e525ad3f79d31c19215324a8ed5e1dc2a3b
