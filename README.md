@@ -24,33 +24,6 @@ To maintain a high standard of quality while enabling fast feedback cycles, the 
 * **Fixtures (JSON):** Used for Data-Driven Testing to manage credentials and test data without hard-coding.
 * **GitHub Actions & Mochawesome:** Used for continuous integration and generating visual HTML reports with screenshots/videos on failure.
 
-### How to Run Tests
-
-**Prerequisites:** Node.js (v18+) and Git.
-
-**Installation:**
-
-```bash
-git clone https://github.com/anatolii-v/js-cypress.git
-cd js-cypress
-npm install
-
-```
-
-**Execution:**
-
-```bash
-# To open the interactive Cypress Test Runner:
-npx cypress open
-
-# To run all tests in Headless mode (CLI):
-npx cypress run
-
-# To run a specific module (e.g., Checkout):
-npx cypress run --spec "cypress/e2e/checkout/**/*.cy.js"
-
-```
-=======
 ### What Was Tested and Why
 
 The suite validates business-critical user journeys where failures would directly impact revenue or user trust:
